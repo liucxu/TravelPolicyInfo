@@ -54,4 +54,6 @@ dependencies {
     api Libs.viewmodel
 
     api Libs.logging_interceptor
+    implementation(Libs.arouter_api)
+    implementation(Libs.arouter_compiler)
 }
