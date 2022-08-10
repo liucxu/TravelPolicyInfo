@@ -1,3 +1,7 @@
+/**
+ * Using buildSrc folder,I record all the dependencies in the file for
+ * unified management.
+ */
 object Versions {
     const val compileSdkVersion = 32
     const val minSdk = 24
@@ -6,6 +10,7 @@ object Versions {
     const val logging_interceptor_version = "4.10.0"
     const val arouter_api_version = "1.5.0"
     const val arouter_compiler_version = "1.2.2"
+    const val retrofit_version = "2.9.0"
 }
 object Libs{
     //LiveData
@@ -18,4 +23,7 @@ object Libs{
     //Arouter
     const val arouter_api = "com.alibaba:arouter-api:${Versions.arouter_api_version}"
     const val arouter_compiler = "com.alibaba:arouter-compiler:${Versions.arouter_compiler_version}"
+    //Retrofit
+    const val retofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit_version}"
+    const val converter_gson = "com.squareup.retrofit2:converter-gson:${Versions.retrofit_version}"
 }
