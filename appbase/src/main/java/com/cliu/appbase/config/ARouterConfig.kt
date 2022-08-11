@@ -1,7 +1,5 @@
 package com.cliu.appbase.config
 
-import java.security.Policy
-
 /**
  * paths for Arouter are defined in the current file.
  */

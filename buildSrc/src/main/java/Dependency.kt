@@ -8,7 +8,7 @@ object Versions {
     const val targetSdk = 32
     const val lifecycle_version = "2.6.0-alpha01"
     const val logging_interceptor_version = "4.10.0"
-    const val arouter_api_version = "1.5.0"
+    const val arouter_api_version = "1.5.2"
     const val arouter_compiler_version = "1.2.2"
     const val retrofit_version = "2.9.0"
 }
