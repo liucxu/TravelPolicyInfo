@@ -17,3 +17,4 @@ dependencyResolutionManagement {
 rootProject.name = "TravelInfo"
 include ':app'
 include ':appbase'
+include ':city'
