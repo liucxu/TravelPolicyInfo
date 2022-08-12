@@ -1,6 +1,5 @@
 package com.cliu.appbase.network
 
-import android.widget.Toast
 import com.cliu.appbase.R
 import com.cliu.appbase.base.BaseApplication
 import com.cliu.appbase.utils.ToastUtils

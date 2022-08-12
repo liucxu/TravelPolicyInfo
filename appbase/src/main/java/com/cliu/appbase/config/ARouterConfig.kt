@@ -6,5 +6,6 @@ package com.cliu.appbase.config
 object ARouterConfig {
     const val CITY = "/path/city"
     const val TEST_AGENCY = "path/agency"
-    const val Policy = "path/policy"
+    const val POLICY = "path/policy"
+    const val RISK_INFO = "path/risk"
 }
